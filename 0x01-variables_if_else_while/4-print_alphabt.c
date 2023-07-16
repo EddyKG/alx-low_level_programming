@@ -11,7 +11,8 @@ int main(void)
 	{
 		if (letter == 'q' || letter == 'e')
 			continue; /*skips the specified letters*/
-	putchar('\n');
+		putchar(letter);
 	}
+	putchar('\n');
 	return (0);
 }
