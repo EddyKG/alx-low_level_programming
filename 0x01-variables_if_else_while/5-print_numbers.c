@@ -5,18 +5,14 @@
 *
 * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-	char letter;
+	char num;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (num = 0; num <= 9; num++)
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		printf("%d", num);
 	}
-
 	putchar('\n');
-
 	return (0);
 }
